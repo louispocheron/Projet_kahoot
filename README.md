@@ -1,4 +1,4 @@
-# Projet_kahoot
+# Projet_kahoot (projet en cours)
 ## Réalisation d’un quizz sur un modèle de type kahoot.
 ### Obligatoire : 
 - Responsive 
@@ -14,21 +14,21 @@
 - Système de login et de comptes
 
 ### Objectifs : 
-Consolider vos connaissances HTML/CSS/JS (Bonnes pratiques, commentaires, SASS, animations, Ajax, etc.) 
-Consolider vos compétences graphiques (Zoning, Wireframe, Charte graphique, Maquettes, etc.) 
-Gestion de groupe et organisation (Dossier de conception, Trello, etc.) Git et Github 
-Perfectionner le responsive (Frameworks, Flexbox, Grid, Media queries, etc.) 
-Découvrir les sockets
-Découvrir le PHP Manipuler les données en SQ
+- Consolider vos connaissances HTML/CSS/JS (Bonnes pratiques, commentaires, SASS, animations, Ajax, etc.) 
+- Consolider vos compétences graphiques (Zoning, Wireframe, Charte graphique, Maquettes, etc.) 
+- Gestion de groupe et organisation (Dossier de conception, Trello, etc.) Git et Github 
+- Perfectionner le responsive (Frameworks, Flexbox, Grid, Media queries, etc.) 
+- Découvrir les sockets
+- Découvrir le PHP Manipuler les données en SQ
 
 ### Outils utilisés :
-Figma (wireframes et maquettes)
+- Figma (wireframes et maquettes)
 
-Langages utilisés :
-HTML 
-CSS
-Javascript
-PHP – MySQL
+### Langages utilisés :
+- HTML 
+- CSS
+- Javascript
+- PHP – MySQL
 
 ### Collaborateurs
 - [Johnathan JUILLERAT](https://github.com/John03021992)
