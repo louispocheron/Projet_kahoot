@@ -19,7 +19,7 @@
 - Gestion de groupe et organisation (Dossier de conception, Trello, etc.) Git et Github 
 - Perfectionner le responsive (Frameworks, Flexbox, Grid, Media queries, etc.) 
 - Découvrir les sockets
-- Découvrir le PHP Manipuler les données en SQ
+- Découvrir le PHP Manipuler les données en SQL
 
 ### Outils utilisés :
 - Figma (wireframes et maquettes)
