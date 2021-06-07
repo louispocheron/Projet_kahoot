@@ -21,15 +21,6 @@
 - Découvrir les sockets
 - Découvrir le PHP Manipuler les données en SQL
 
-### Outils utilisés :
-- Figma (wireframes et maquettes)
-
-### Langages utilisés :
-- HTML 
-- CSS
-- Javascript
-- PHP – MySQL
-
 ### Collaborateurs
 - [Johnathan JUILLERAT](https://github.com/John03021992)
 - [Louis Pocheron](https://github.com/louispocheron)
