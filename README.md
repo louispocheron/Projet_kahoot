@@ -22,6 +22,6 @@
 - Découvrir le PHP Manipuler les données en SQL
 
 ### Collaborateurs
-- [Johnathan JUILLERAT](https://github.com/John03021992)
+- [Jonathan JUILLERAT](https://github.com/John03021992)
 - [Louis Pocheron](https://github.com/louispocheron)
 - [Margaux Coppi](https://github.com/margauxc25)
