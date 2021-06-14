@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #cccccc;
+    background-image: url(./images_logo/circle-down.png), url(./images_logo/circle-top.png);
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0, left 0 top 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container_answer_page6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo_page6 {
+    height: 15rem;
+    margin-top: 15rem;
+}
+
+.q1 {
+    display: flex;
+    margin-top: 1rem;
+    border: 1px solid #eeecec;
+    text-align: center;
+    width: 45rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    color: black;
+    background: #eeecec;
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.text_page6 {
+    font-size: 2.5rem;
+    color: black;
+    background: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer_page6 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 4.5rem;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.question_page6 {
+    font-size: 2rem;
+}
+
+@media screen and (max-width : 980px){
+    .body{
+        background-size: 10%;
+    }
+    .logo_page6{
+        display: none;
+    }
+    .text_page6{
+        width: 100%;
+    }
+    .text_page6 p{
+        font-size: 2rem;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 4%;
+    }
+    .q1 {
+        display: flex;
+        margin-top: 1.5rem;
+        border: 1px solid #eeecec;
+        width: 23rem;
+        height: 8rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        color: black;
+        background: #eeecec;
+    }
+    .q1 img{
+        height: 2rem;
+    }
+    .q1 p{
+        font-size: 2rem;
+    }
+    .footer_page6 {
+        margin-top: 1rem;
+        align-items: center;
+        background: white;
+        height: 4.5rem;
+        width: 100%;
+    }
+    .footer_page6 p{
+        font-size: 2rem;
+    }
+    .container_answer_page6 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+}
