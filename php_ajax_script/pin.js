@@ -21,12 +21,13 @@
 var test = 667;
 var btn = document.getElementById("button_pin");
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
   var pass1 = document.getElementById("input_pin").value;
   console.log(input_pin);
   if (pass1 == test) {
     console.log("salut");
-    document.location.href = "./desktop3.html";
+    window.location.href = "./desktop5.html";
   } else {
     alert("Mauvais code pin");
   }

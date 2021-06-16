@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     $_SESSION["score"] += (int)($_POST["reponse"]);
     // echo $_SESSION["score"];
     echo "Votre score : ".$_SESSION["score"]."/".$_POST["question"]."<br/>";
-    if (intval($_POST["question"])<14){
+    if (intval($_POST["question"])<15){
         include "question".(intval($_POST["question"])+1).".php";
     }  else {
        // echo $_SESSION["score"];
@@ -62,6 +62,15 @@ $donneesq = $sth->fetch();
 
 
 
+// $opt1 = $post->verite_1;
+// $opt2 = $post->verite2;
+// $opt3 = $post->verite3;
+// $opt4 = $post->mensonge;
+// }
+
+// $reponses = [$opt1, $opt2, $opt3, $opt4];
+
+// shuffle($reponses);
 
 
 
@@ -70,7 +79,7 @@ $donneesq = $sth->fetch();
 
 
 <header>
-      <p class="question_page6">3 mensonges, 1 vérité</p>
+      <p class="question_page6">1 mensonge, 3 vérités</p>
     </header>
 
 
@@ -97,7 +106,7 @@ $donneesq = $sth->fetch();
 
 
 <footer class="footer_page6">
-      <p class="name">John</p>
+     <div id="result"></div>
     </footer>
 
 
@@ -110,7 +119,7 @@ $donneesq = $sth->fetch();
 $sth->closeCursor();
 ?>
 
-
+<script src="pseudo.js"></script>
 <script src="ajax.js" ></script>
 </body>
 </html>

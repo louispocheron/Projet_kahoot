@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style_desktop5.css" />
     <title>Document</title>
+    <script type="text/javascript">
+      function RedirectionJavascript(){
+        document.location.href="./question1.php";
+      }
+   </script>
   </head>
-  <body>
+  <body onLoad="setTimeout('RedirectionJavascript()', 6000)">
     <!-- Header  -->
 
     <header class="header_page5">
@@ -20,11 +25,11 @@
       <a href="#" target="_blank">
         <img class="logo_page5" src="images_logo/logo.png" alt=""
       /></a>
-      <p class="question_page5">Que signifie VPN ?</p>
+      <p class="question_page5">Vous êtes prêts ?</p>
     </section>
 
     <footer class="footer_page5"></footer>
 
-    <script src="./script.js"></script>
+    
   </body>
 </html>
